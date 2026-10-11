@@ -1,0 +1,25 @@
+# Node.js
+**/node_modules/
+**/.env
+**/.env.*
+!**/.env.example
+
+# Flutter & Dart
+**/.dart_tool/
+**/build/
+**/.pub-cache/
+**/.pub/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# Audio Generated Cache
+skyscout_backend/public/audio/*.mp3
+!skyscout_backend/public/audio/fallback_story.mp3
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

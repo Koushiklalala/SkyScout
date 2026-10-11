@@ -1,0 +1,36 @@
+{
+  "name": "skyscout_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx tsx test_all_endpoints.ts",
+    "dev": "npx tsx src/server.ts",
+    "start": "npx tsx src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/genai": "^2.28.0",
+    "@mastra/core": "^1.75.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.7.0",
+    "nodemailer": "^10.1.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^26.6.5",
+    "@types/nodemailer": "^8.0.2",
+    "mongodb-memory-server": "^11.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}

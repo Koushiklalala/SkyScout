@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Orion",
+    "celestialHemisphere": "Equatorial",
+    "raRange": [4.5, 6.5],
+    "decRange": [-11.0, 23.0],
+    "mythologySummary": "In Greek mythology, Orion was a gigantic, supernaturally strong hunter placed among the stars by Zeus. Across many cultures, his iconic belt makes him one of the most recognized figures in the night sky.",
+    "scientificFacts": "Orion is home to two of the brightest stars in the sky: the red supergiant Betelgeuse and the blue supergiant Rigel, as well as the famous Orion Nebula."
+  },
+  {
+    "name": "Ursa Major",
+    "celestialHemisphere": "Northern",
+    "raRange": [8.0, 14.5],
+    "decRange": [28.0, 73.0],
+    "mythologySummary": "Known as the Great Bear, Greek myth states Callisto was transformed into a bear to hide from a jealous goddess. In Native American lore, it represents a bear eternally hunted across the heavens.",
+    "scientificFacts": "It contains the Big Dipper asterism, which is widely used to find Polaris (the North Star), and hosts the Pinwheel Galaxy located 21 million light-years away."
+  },
+  {
+    "name": "Scorpius",
+    "celestialHemisphere": "Southern",
+    "raRange": [15.5, 18.0],
+    "decRange": [-46.0, -8.0],
+    "mythologySummary": "In Greek tradition, it is the scorpion sent by Gaia to defeat Orion the hunter. In Polynesian navigation and Māori tradition, it forms the magical fishhook of the demigod Maui.",
+    "scientificFacts": "Scorpius sits near the center of the Milky Way and contains Antares, a massive red supergiant star that glows distinctively ruby-red in the sky."
+  },
+  {
+    "name": "Cassiopeia",
+    "celestialHemisphere": "Northern",
+    "raRange": [0.0, 24.0],
+    "decRange": [45.0, 77.0],
+    "mythologySummary": "Cassiopeia represents a vain and boastful queen from Greek mythology, forced to circle the celestial pole upside down as punishment for her arrogance. Her 'W' shape is easily recognizable.",
+    "scientificFacts": "This 'W' shaped constellation contains the remains of Cassiopeia A, a supernova remnant that is the brightest extrasolar radio source in the sky."
+  },
+  {
+    "name": "Crux",
+    "celestialHemisphere": "Southern",
+    "raRange": [11.9, 12.9],
+    "decRange": [-64.0, -55.0],
+    "mythologySummary": "Known commonly as the Southern Cross, it has guided navigators for centuries. In Australian Aboriginal astronomy, it often represents the footprints of a giant wedge-tailed eagle.",
+    "scientificFacts": "Crux is the smallest of all 88 modern constellations, yet it features four brilliant stars and neighbors the Coalsack Nebula, a massive dark silhouette against the Milky Way."
+  },
+  {
+    "name": "Cygnus",
+    "celestialHemisphere": "Northern",
+    "raRange": [19.0, 22.0],
+    "decRange": [27.0, 61.0],
+    "mythologySummary": "Cygnus is the swan, often associated with the disguise Zeus used to visit Leda. It is also known as the Northern Cross, flying directly down the path of the Milky Way.",
+    "scientificFacts": "Cygnus contains Deneb, one of the most luminous stars known, and Cygnus X-1, one of the strongest X-ray sources in the sky and the first widely accepted black hole."
+  },
+  {
+    "name": "Taurus",
+    "celestialHemisphere": "Equatorial",
+    "raRange": [3.5, 6.0],
+    "decRange": [0.0, 31.0],
+    "mythologySummary": "Taurus the Bull is one of the oldest constellations, recognized since the Early Bronze Age. In Greek myth, it was the form Zeus took to carry Europa across the sea.",
+    "scientificFacts": "Taurus hosts the Pleiades (Seven Sisters) and Hyades star clusters, as well as the Crab Nebula, the expanding remnant of a supernova observed by Chinese astronomers in 1054 AD."
+  },
+  {
+    "name": "Leo",
+    "celestialHemisphere": "Equatorial",
+    "raRange": [9.5, 12.0],
+    "decRange": [-6.0, 33.0],
+    "mythologySummary": "Leo represents the Nemean Lion, a beast with impenetrable golden fur that was slain by Hercules during the first of his twelve legendary labors.",
+    "scientificFacts": "Its brightest star is Regulus, a multiple star system spinning so rapidly that it is distinctly oblate (egg-shaped) rather than spherical."
+  }
+]
