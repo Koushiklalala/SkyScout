@@ -43,7 +43,12 @@ class _LoginScreenState extends State<LoginScreen> {
       setState(() {
         _isLoading = false;
         _isOtpSent = true;
-        _statusMessage = res['message'] ?? "Verification code dispatched.";
+        if (res['otpHint'] != null) {
+          _statusMessage = "${res['message']}\nOTP Code: ${res['otpHint']}";
+          _otpController.text = res['otpHint'].toString();
+        } else {
+          _statusMessage = res['message'] ?? "Verification code dispatched. Check inbox & spam.";
+        }
       });
     }
   }

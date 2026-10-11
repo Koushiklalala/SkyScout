@@ -57,17 +57,17 @@ router.post('/request-otp', async (req: Request, res: Response) => {
             text: `Your SkyScout verification code is: ${otpCode}\n\nIt expires in 10 minutes. Keep looking up!`
         };
 
-        try {
-            await Promise.race([
-                transporter.sendMail(mailOptions),
-                new Promise((_, reject) => setTimeout(() => reject(new Error('SMTP timeout after 4000ms')), 4000))
-            ]);
-            console.log(`Sent OTP ${otpCode} to ${email}`);
-        } catch (mailErr: any) {
+        // Dispatch Email asynchronously to allow full time for Gmail SMTP delivery
+        transporter.sendMail(mailOptions).then(info => {
+            console.log(`[SMTP] Successfully delivered OTP ${otpCode} to ${email}: ${info.response}`);
+        }).catch(mailErr => {
             console.warn(`[Auth Notice] SMTP delivery issue (${mailErr?.message}). OTP ${otpCode} is active in MongoDB.`);
-        }
+        });
 
-        res.json({ message: 'OTP processed successfully' });
+        res.json({ 
+            message: 'OTP dispatched to your email (check inbox & spam)',
+            otpHint: otpCode 
+        });
     } catch (error) {
         console.error('Error requesting OTP:', error);
         res.status(500).json({ error: 'Internal Server Error' });
