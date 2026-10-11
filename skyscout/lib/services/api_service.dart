@@ -16,8 +16,8 @@ class ApiService {
   static const String _keyStoryStyle = 'skyscout_user_story_style';
   static const String _keyProfileCompleted = 'skyscout_profile_completed';
 
-  // Default laptop Wi-Fi IP
-  String baseUrl = "http://192.168.1.17:3000";
+  // Live Render Production Backend URL
+  String baseUrl = "https://skyscout-suf7.onrender.com";
 
   String? jwtToken;
   String? userEmail;
